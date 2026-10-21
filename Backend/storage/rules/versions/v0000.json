@@ -1,0 +1,10 @@
+{
+  "version": 0,
+  "class_auto_redact_confidence": {},
+  "created_at": 1791736737.1622171,
+  "created_by": "system",
+  "note": "Built-in policy (HIGH>=0.80 auto, MEDIUM 0.50-0.80 review)",
+  "parent": null,
+  "evidence": {},
+  "validation": {}
+}

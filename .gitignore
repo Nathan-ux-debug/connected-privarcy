@@ -1,0 +1,62 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*.token
+credentials.*
+secrets.*
+config.local.*
+.npmrc
+.pypirc
+.netrc
+.ssh/
+.aws/
+.azure/
+.config/gcloud/
+
+# Local databases and SQLite sidecars
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Runtime data and user-provided media
+**/outputs/
+**/uploads/
+Backend/storage/live_measurements.json
+Backend/storage/rules/audit.jsonl
+*.resume.json
+
+# Python environments, bytecode, and test/tool caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

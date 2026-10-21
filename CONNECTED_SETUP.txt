@@ -1,0 +1,13 @@
+PrivARcy - Frontend/Backend Connected Build
+
+1. Extract this ZIP over your existing PrivARcy Thesis project.
+2. Keep/use your existing Backend\venv if you already have it.
+3. From the project root in PowerShell:
+   .\Backend\venv\Scripts\Activate.ps1
+4. Start the application:
+   cd Frontend
+   python main.py
+
+
+
+.\Backend\venv\Scripts\python.exe Frontend\main.py
